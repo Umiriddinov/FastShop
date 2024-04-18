@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Commons\Attributes\" />
+    <Folder Include="Commons\Helpers\" />
+    <Folder Include="Commons\Exceptions\" />
+    <Folder Include="Commons\Validations\" />
+    <Folder Include="Commons\Security\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FastShop.DataAccess\FastShop.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
